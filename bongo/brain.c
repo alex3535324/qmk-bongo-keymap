@@ -50,7 +50,6 @@ bool oled_task_user(void) {
   if (is_keyboard_master()) {
       render_status_main();
   } else {
-      
       render_status_secondary();
   }
    return true;
